@@ -1,8 +1,13 @@
-* {
+body {
     margin: 0;
+    font-family: "Karla", sans-serif ;
     background-color: rgb(247, 240, 231);
 }
 
 header {
-    background-color: blueviolet;
+    padding: 4px;
+    color: aliceblue;
+    background-image: linear-gradient(to right, rgb(86, 56, 255), rgb(51, 10, 51));
+    font-family:"Sarabun", sans-serif ;
+    text-align: center;
 }
