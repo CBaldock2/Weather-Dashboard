@@ -13,44 +13,31 @@ header {
     text-align: center;
 }
 
-.container {
-    display: inline;
-}
-
 input {
     padding: 10px 65px 10px 15px;
-    border: 2px;
-    border-radius: 5px;
-    background-color: rgb(228, 227, 226);
 }
 
 .my-icon {
-    margin-left: -80px;
     color: rgb(83, 127, 165);
-    padding: 7px;
     border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    left: 240px;
+    padding: 10px;
 }
 
 .my-icon:hover {
     background-color: rgb(193, 195, 197);
 }
 
-
-.city {
-    float: left;
+.card {
+    margin: 0 0 20px 0;
 }
 
-.search {
-    margin: 15px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid rgb(112, 136, 158);
+.card-header {
+    padding: 2.5%;
 }
 
-.history {
-    margin: 15px;
-    padding-top: 10px;
-}
-
-.weather {
-    margin-left: 375px;
+.card-body {
+    padding: 2.5%;
 }
