@@ -24,36 +24,39 @@
                 <div class="col-12 col-sm-6 col-lg-4 mb-3 border-bottom">
                     <div class="search card m-2 border border-0" style="width: 22rem; background-color: rgb(248, 245, 241);">
                         <h2 class="card-header border border-0" style="background-color: rgb(248, 245, 241);">Search for a City:</h2>
-                        <form class="card-body" id="form">
-                            <input name="search" class="form-input bg-dark-subtle rounded border border-0" id="search" type="text" placeholder="Search a City">
-                            <button type="submit" class="btn">
+
+                        <form class="card-body" id="search-form">
+                            <input name="search" id="search" class="form-input bg-dark-subtle rounded border border-0" type="text" placeholder="Search a City">
+                            <button type="submit" class="btn" id="submit-btn">
                                 <i class="fas fa-search my-icon"></i>
                             </button>
                         </form>
+
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-6 col-lg-8 mb-3" >
-                    <div class="current card m-2 border border-0" style="background-color: rgb(248, 245, 241);">
-                        <h3 class="card-header border border-0" style="background-color: rgb(248, 245, 241);">Current</h3>
-                        <span id="current"></span>
-                        <div id="current-container"></div>
+                    <div class="card m-2 border border-0" style="background-color: rgb(248, 245, 241);">
+                        <h3 class="card-header border border-0" style="background-color: rgb(248, 245, 241);"></h3>
+                        
+                        <span class="current container"></span>
+
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-6 col-lg-4 mb-3">
                     <div class="history card m-2 border border-0" style="background-color: rgb(248, 245, 241); width: 22rem;">
                         <h3 class="subtitle">History</h3>
-                        <span id="history"></span>
+                        
                         <div class="list-group" id="history-container"></div>
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-6 col-lg-8 mb-3">
-                    <div class="forecast card m-2 border border-0" style="background-color: rgb(248, 245, 241);">
+                    <div class="card m-2 border border-0" style="background-color: rgb(248, 245, 241);">
                         <h3 class="subtitle">5-Day Forecast:</h3>
-                        <span id="forecast"></span>
-                        <div class="list-group" id="forecast-container"></div>
+                        
+                        <div class="list-group forecast" id="forecast-container"></div>
                     </div>
                 </div>
             </section>
@@ -66,7 +69,8 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="Assets/JS/script.js"></script>
 </body>
 
