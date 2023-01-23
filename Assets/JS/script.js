@@ -160,18 +160,6 @@ var getForecast = function (city, state, country) {
 };
 
 // Adds the search to the local storage
-// btn.addEventListener('click', function () {
-//     let latLon = this.getAttribute('href');
-//     if (latLon === data.coord.lat, data.coord.lon) {
-//         let where = JSON.parse(localStorage.getItem('City'));
-//         if (!where) {
-//             where = [];
-//         }
-//         where.push({ 'lat': data.coord.lat, 'lon': data.coord.lon });
-//         localStorage.setItem('coordinates', JSON.stringify(where));
-//     }
-// });
-
 function renderHistory() {
     let historyContainer = document.querySelector('#history-container');
     let locationArray;
