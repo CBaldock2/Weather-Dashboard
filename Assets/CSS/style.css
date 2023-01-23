@@ -21,7 +21,7 @@ input {
     color: rgb(83, 127, 165);
     border-radius: 5px;
     position: absolute;
-    top: 65px;
+    top: 69px;
     left: 240px;
     padding: 10px;
 }
@@ -40,4 +40,34 @@ input {
 
 .card-body {
     padding: 2.5%;
+}
+
+#forecast-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#day1, #day2, #day3, #day4, #day5 {
+    margin-right: 20px;
+    padding: 15px 15px 75px 15px;
+    color: whitesmoke;
+    background-color: rgb(67, 67, 151);
+    border-radius: 10px;
+}
+
+#day1 div, #day2 div, #day3 div, #day4 div, #day5 div {
+    margin: 15px;
+}
+
+.location {
+    margin: 5px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(165, 141, 185);
+} 
+
+.location:hover {
+    background-color: rgb(120, 96, 139);
 }
